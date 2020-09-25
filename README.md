@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HacktoberFest Gettysburg 2020
 
-## Available Scripts
+Welcome to our first repository of Hacktoberfest 2020!
 
-In the project directory, you can run:
+![Hacktoberfest](src/logo.png?raw=true "Hacktoberfest")
 
-### `npm start`
+In this repository, we are going to make our first contribution to Hacktoberfest 2020. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Go to the tab in the top-right corner, underneath your profile icon where it says *fork* and click on it!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 2. Open a console, navigate to your workspace, and use the following command to download the repository:
 
-### `npm test`
+`git clone https://github.com/TheDJZiegler/hacktoberfest-roll-call.git`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A new directory will be created on your computer
 
-### `npm run build`
+### 3. Access the repository with the command:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`cd hacktoberfest-roll-call`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 4. Create a new branch to begin working on. Use the command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`git checkout -b branch-name`
 
-### `npm run eject`
+### 5. Create the following changes:
+Make the following changes:
+Create a new file in the directory *assets* that is (github-name).js
+In it you must include:
+~~~
+        export const github-username = {
+            "name": "your-name",
+            "gif": "url of favorite gif", // using gif link on https://giphy.com/
+            "skills": "languages you know",
+            "github": "https://github.com/your-github-profile-url"
+        }
+        export default *github-username*
+~~~
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For example, here is what is listed in my file, thedjziegler.js:
+~~~
+        export const thedjziegler = {
+            "name": "Danny Z",
+            "gif": "https://media.giphy.com/media/lp3GUtG2waC88/giphy.gif", // using the gif link itself
+            "skills": "Java, Javascript, Python",
+            "github": "https://github.com/TheDJZiegler"
+        }
+~~~
+Don't forget to include your file in the assets/index.js file
+~~~
+        export * from './thedjziegler'
+        
+        export * from './github-name'
+~~~
+We are all done with our changes! 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 6. Stage the changes in your branch: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`git add .`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 6. Commit your changes to the **Pull-Request**
 
-## Learn More
+`git commit -m "description of the changes"`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 7. Push your changes to the **Pull-Request**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`git push origin name-of-the-repo`
 
-### Code Splitting
+### 8. Go to the main repo on GitHub, a green button will appear with:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`NEW PULL REQUEST`
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 9. Push the button to create your first Hacktoberfest **Pull-Request** !!
