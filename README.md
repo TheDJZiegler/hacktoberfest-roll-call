@@ -2,7 +2,7 @@
 
 Welcome to our first repository of Hacktoberfest 2020!
 
-![Hacktoberfest](src/logo.png?raw=true "Hacktoberfest")
+![Hacktoberfest](src/logo.svg?raw=true "Hacktoberfest")
 
 In this repository, we are going to make our first contribution to Hacktoberfest 2020. 
 
@@ -24,8 +24,8 @@ A new directory will be created on your computer
 
 ### 5. Create the following changes:
 Make the following changes:
-Create a new file in the directory *assets* that is (github-name).js
-In it you must include:
+Create a new file in the *assets* directory and name it (github-name).js
+In this file, you must include:
 ~~~
         export const github-username = {
             "name": "your-name",
@@ -52,6 +52,11 @@ Don't forget to include your file in the assets/index.js file
         export * from './github-name'
 ~~~
 We are all done with our changes! 
+If you want to see the results, run the following commands:
+
+`npm install` 
+
+`npm start`
 
 ### 6. Stage the changes in your branch: 
 
@@ -68,5 +73,7 @@ We are all done with our changes!
 ### 8. Go to the main repo on GitHub, a green button will appear with:
 
 `NEW PULL REQUEST`
+
+Add a descriptive message that is relevant to the name of your branch
 
 ## 9. Push the button to create your first Hacktoberfest **Pull-Request** !!
