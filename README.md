@@ -32,7 +32,7 @@ For example:
 
 ### 5. Add the following changes to your branch:
 
-Create a new file in the *assets* directory and name it username.js (where username is your GitHub Username)
+Create a new file in the *src/assets* directory and name it username.js (where username is your GitHub Username)
 
 In this file, you should add:
 ~~~
