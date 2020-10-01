@@ -125,10 +125,10 @@ export default function Album() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Please let me know if you have any questions!
+          Please let us know if you have any questions!
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Thanks for contributing!
+          Happy Hacktoberfest!
         </Typography>
         <Copyright />
       </footer>
