@@ -4,7 +4,7 @@ Welcome to our first repository of Hacktoberfest 2020!
 
 ![Hacktoberfest](src/logo.svg?raw=true "Hacktoberfest")
 
-Follow the directions below to 
+Follow the directions below to add yourself to our Hacktoberfest Roll Call
 
 ### 1. Go to the tab in the top-right corner, underneath your profile icon where it says *fork* and click on it!
 
