@@ -8,3 +8,4 @@ export * from './hernri01'
 export * from './bendurham441'
 export * from './twilliams1615'
 export * from './Miguel3456'
+export * from "./distanta";
