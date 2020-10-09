@@ -6,4 +6,3 @@ export const FarhanMuftiHilmy = {
 }
 export default FarhanMuftiHilmy
 
-export * from './FarhanMuftiHilmy'
