@@ -1,6 +1,4 @@
 export * from "./thedjziegler";
-export * from "./akash-dutta-au7";
-export * from './thedjziegler'
 export * from './cupake01'
 export * from './kegonzalez311'
 export * from './cgmpresser'
@@ -15,3 +13,5 @@ export * from "./terrelverneuil"
 export * from "./sangya"
 export * from "./lattai"
 export * from "./adalbertobrant"
+export * from "./tarunyadav1";
+export * from "./akash-dutta-au7";
