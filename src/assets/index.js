@@ -14,3 +14,4 @@ export * from "./distanta";
 export * from "./terrelverneuil"
 export * from "./sangya"
 export * from "./lattai"
+export * from "./adalbertobrant"
