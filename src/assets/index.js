@@ -12,6 +12,7 @@ export * from "./distanta";
 export * from "./terrelverneuil"
 export * from "./sangya"
 export * from "./lattai"
+export * from "./alekz7"
 export * from "./adalbertobrant"
 export * from "./tarunyadav1";
 export * from "./akash-dutta-au7";
