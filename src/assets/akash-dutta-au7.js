@@ -1,6 +1,6 @@
 export const akashduttaau7 = {
   name: "Akash Dutta",
-  gif: "http://cookies-and-sugar.tumblr.com/post/76834308897", // using the gif link itself
+  gif: "https://media.giphy.com/media/dyd7I2k91z7I7JYBxe/giphy.gif", // using the gif link itself
   skills: "HTML, CSS, JavaScript, React, Node, Express, MongoDB",
   github: "https://github.com/akash-dutta-au7",
 };
