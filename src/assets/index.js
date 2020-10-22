@@ -1,4 +1,4 @@
-export * from './thedjziegler'
+export * from './thedjziegler' 
 export * from './cupake01'
 export * from './kegonzalez311'
 export * from './cgmpresser'
@@ -13,3 +13,8 @@ export * from "./terrelverneuil"
 export * from "./sangya"
 export * from "./lattai"
 export * from "./alekz7"
+export * from "./adalbertobrant"
+export * from "./tarunyadav1";
+export * from "./akash-dutta-au7";
+export * from './mendelevium28'
+export * from './toponever'
